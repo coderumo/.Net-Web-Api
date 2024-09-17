@@ -1,6 +1,7 @@
-﻿bin/
-obj/
-*.user
-*.suo
-*.csproj.user
+﻿
+*.BasicApi.sln
+*.BasicApi.csproj/
+*.BasicApi.http/
+*.appsettings.json/
+*.appsettings.Development.json/
 *.vs/
