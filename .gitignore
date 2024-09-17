@@ -1,11 +1,21 @@
-﻿bin/
+﻿# Bin ve Obj klasörleri
+bin/
 obj/
+
+# Kullanıcı ve yapılandırma dosyaları
 *.user
 *.suo
 *.csproj.user
-*.vs/
-*.BasicApi.sln
-*.BasicApi.csproj/
-*.BasicApi.http/
-*.appsettings.json/
-*.appsettings.Development.json/
+
+# Visual Studio ve IDE ayarları
+.vs/
+.vscode/
+
+# Çıktı dosyaları ve proje spesifik dosyalar
+*.sln
+*.csproj
+*.http
+
+# Ayar dosyaları
+appsettings.json
+appsettings.Development.json
